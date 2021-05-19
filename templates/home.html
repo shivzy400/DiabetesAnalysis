@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+{% block content %}
+        
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6 banner-info fade animate fadeUp">
+                    <h2>An End-To-End Project On</h2>
+                    <p class="big-text">Diabetes Analysis & Prediction Using Machine Learning</p>
+                    <p class="subtext">A Machine Learning Based Application used to analyse the condition of Diabetes in today's World & also to predict whether a person is suffering from diabetes or not by putting information using the concept called classification in Machine Learning.</p>
+                    <a class="btn btn-style" href="/about">Learn More</a>
+                </div>
+                <div class="col-sm-6 banner-image fade  animate fadeUp">
+                    <img src="{{ url_for('static' , filename = 'img/timeline-img.jpg') }}" class="img-responsive" alt="">
+                </div>
+            </div>
+        </div>
+{% endblock %}

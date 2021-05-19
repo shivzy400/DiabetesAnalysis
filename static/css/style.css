@@ -1,0 +1,169 @@
+* {
+    margin : 0;
+    padding:0;
+    
+}
+
+.header {
+    height: 100vh;
+
+}
+
+.navbar-style {
+    box-shadow: 0 5px 10px #efefef;
+    text-transform: uppercase;
+}
+
+.logo {
+    height: 48px;
+    padding:2px 10px;
+}
+
+.icon-bar {
+    background: darkslategrey;
+}
+
+li a {
+    color:#273c75;
+}
+
+.big-text {
+    font-size: 48px;
+    margin:20px 0;
+    color: #40739e; 
+}
+
+.subtext {
+    font-size: 16px;
+    margin: 20px 0;
+    color: #000000;
+
+}
+
+a.btn {
+    margin: 30px 10px;
+    width: 150px;
+    padding: 10px;
+    border-radius: 20px;
+    font-size: 16px;
+}
+
+a.btn-style {
+    background-color: #40739e;
+    color : #ffffff
+}
+
+a.btn:hover {
+    background-color: #273c75;
+    box-shadow: 5px 5px 10px #999;
+    transition: 0.2s;
+    color : #ffffff;
+}
+
+.banner-info , .banner-image {
+    margin : 30px 0;
+}
+
+a.btn-large {
+    width: 300px;
+}
+
+#advanced-search-form{
+    background-color: #fff;
+    max-width: 800px;
+    margin: 160px auto 0;
+    padding: 40px;
+    color: #858b8e;
+    box-shadow: 6px 6px 6px rgba(0,0,0,0.2);
+}
+
+#advanced-search-form h2{
+    padding-bottom: 20px;
+    margin: 10px 20px;
+    font-size: 24px;
+}
+
+#advanced-search-form hr{
+    margin-top: 38px;
+    margin-bottom: 54px;
+    margin-left:3px;
+    border: 1px solid #cccccc;
+
+}
+
+.form-control{
+    padding: 12px 20px;
+    height: auto;
+    border-radius: 2px;
+}
+
+.animate {
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    animation-fill-mode: both;
+    -webkit-animation-fill-mode: both;
+}
+
+@-webkit-keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes fadeUp {
+    from {
+        opacity: 0;
+        -webkit-transform: translate3d(0 , 100% , 0);
+        transform: translate3d(0,100%,0);
+    }
+    to {
+        opacity: 1;
+        -webkit-transform: none;
+        transform: none;
+    }
+}
+
+@keyframes fadeUp {
+    from {
+        opacity: 0;
+        -webkit-transform: translate3d(0 , 100% , 0);
+        transform: translate3d(0,100%,0);
+    }
+    to {
+        opacity: 1;
+        -webkit-transform: none;
+        transform: none;
+    }
+}
+
+.fadeIn {
+    -webkit-animation-name: fadeIn;
+    animation-name: fadeIn;
+}
+
+.fadeUp {
+    -webkit-animation-name: fadeUp;
+    animation-name : fadeUp;
+}
+
+#portfolio {
+    list-style: none;
+}
+
+#portfolio li {
+
+    display: inline;
+}
+

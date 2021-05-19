@@ -1,0 +1,33 @@
+{% extends 'base.html' %}
+{% block content %}
+
+<div class="container">
+    <div class="row">
+        <div class="col-sm-12 banner-info fade animate fadeUp">
+            <p class="big-text">
+                Gallery
+            </p>
+            <h2>Some Important Snapshots</h2>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-sm-12 banner-info fade animate fadeUp">
+            <div class="gallery" id="gallery">
+                <ul id="portfolio">
+                    <li><img src="{{ url_for('static' , filename= 'img/gallery/img1.jpg')}}" alt="">
+                    <li><img src="{{ url_for('static' , filename= 'img/gallery/img2.jpg')}}" alt="">
+                    <li><img src="{{ url_for('static' , filename= 'img/gallery/img3.jpg')}}" alt="">
+                    <li><img src="{{ url_for('static' , filename= 'img/gallery/img4.jpg')}}" alt="">
+                    <li><img src="{{ url_for('static' , filename= 'img/gallery/img5.jpg')}}" alt="">
+                    <li><img src="{{ url_for('static' , filename= 'img/gallery/img6.png')}}" alt="">
+                    <li><img src="{{ url_for('static' , filename= 'img/gallery/img7.jpg')}}" alt="">
+                    <li><img src="{{ url_for('static' , filename= 'img/gallery/img8.jpg')}}" alt="">
+                    <li><img src="{{ url_for('static' , filename= 'img/gallery/img9.jpg')}}" alt="">
+                    <li><img src="{{ url_for('static' , filename= 'img/gallery/img10.jpg')}}" alt="">
+                    <li><img src="{{ url_for('static' , filename= 'img/gallery/img11.jpg')}}" alt="">
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
